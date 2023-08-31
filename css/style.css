@@ -16,6 +16,7 @@ html {
     font-family: 'Fredoka', sans-serif;
 }
 
+/*Header*/
 
 .container {
     margin: 20px auto;
@@ -31,15 +32,18 @@ html {
     margin: 10px;
 }
 
+/*Main*/
+
 .subtitle {
-    margin: 50px auto;
+    margin: 40px auto;
     font-size: 20px;
 }
 
-/*Tabella*/
+/*Tables*/
 
 .table {
     margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 .clearfix::after {
@@ -55,19 +59,34 @@ html {
     float: left;
     width: calc((100% - 60px) / 3);
     background-color: #0f0e17;
+    box-shadow: 0 0 3px 3px lightgray;
 }
 
 .card__info {
     color: white;
+    vertical-align: middle;
+    padding-top: 14px;
 }
 
 .card__img {
     float: left;
+    height: 100px;
 }
 
 .email {
     color: #3dade4;
 }
+
+/*Footer*/
+
+.footer {
+    color: white;
+    padding: 50px;
+    font-size: 15px;
+    background-color: #0f0e17;
+    text-align: center;
+}
+
 /*DEBUG CLASS*/
 .debug {
     border: 2px solid red;
