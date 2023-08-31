@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+html {
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.title {
+    color: #e53170;
+    text-align: center;
+}
+
+/*Tabella*/
+
+.table {
+    float: left;
+    margin-right: 10px;
+    max-width: ((100-20)/3);
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/*Cards*/
+
+.card {
+    float: left;
+    padding: 10px; 
+}
+
+table:nth-child(3) {
+    margin-left: 0;
+}
+/*DEBUG CLASS*/
+.debug {
+    border: 2px solid red;
+    line-height: 30px;
+    padding: 10px;
+}
