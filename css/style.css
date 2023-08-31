@@ -18,21 +18,28 @@ html {
 
 
 .container {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 980px;
+    text-align: center;
 }
 
 .title {
     color: #e53170;
     text-align: center;
+    font-size: 48px;
+    font-weight: 900px;
+    margin: 10px;
+}
+
+.subtitle {
+    margin: 50px auto;
+    font-size: 20px;
 }
 
 /*Tabella*/
 
 .table {
-    float: left;
-    margin-right: 10px;
-    width: calc ((100% -20px)/3);
+    margin-top: 5px;
 }
 
 .clearfix::after {
@@ -44,17 +51,27 @@ html {
 /*Cards*/
 
 .card {
-    padding: 10px; 
-    display: inline-block;
+    margin: 10px; 
+    float: left;
+    width: calc((100% - 60px) / 3);
+    background-color: #0f0e17;
 }
 
-.table:nth-child(3) {
-    margin-right: 0;
+.card__info {
+    color: white;
+}
+
+.card__img {
+    float: left;
+}
+
+.email {
+    color: #3dade4;
 }
 /*DEBUG CLASS*/
 .debug {
     border: 2px solid red;
-    line-height: 30px;
+    min-height: 30px;
     padding: 10px;
 }
 
