@@ -32,7 +32,7 @@ html {
 .table {
     float: left;
     margin-right: 10px;
-    max-width: ((100-20)/3);
+    width: calc ((100% -20px)/3);
 }
 
 .clearfix::after {
@@ -44,16 +44,21 @@ html {
 /*Cards*/
 
 .card {
-    float: left;
     padding: 10px; 
+    display: inline-block;
 }
 
-table:nth-child(3) {
-    margin-left: 0;
+.table:nth-child(3) {
+    margin-right: 0;
 }
 /*DEBUG CLASS*/
 .debug {
     border: 2px solid red;
     line-height: 30px;
     padding: 10px;
+}
+
+.debug .table {
+	min-height: 100px;
+	padding: 20px;
 }
